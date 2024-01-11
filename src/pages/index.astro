@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <ul role="list" class="link-card-grid">
+      <Card
+        href="/new-page"
+        title="Normal link"
+        body="This link is working correctly and goes to /new-page."
+      />
+      <Card
+        href="/redirected"
+        title="Redirected link"
+        body="This link shows on /redirected that is redirected to /new-page"
+      />
+    </ul>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 2rem;
+    padding: 0;
+  }
+</style>
