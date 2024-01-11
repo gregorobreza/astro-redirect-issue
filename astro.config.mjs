@@ -5,6 +5,6 @@ export default defineConfig({
     site: 'https://gregorobreza.github.io/astro-redirect-issue',
     base: '/astro-redirect-issue',
     redirects: {
-        '/redirected': '/new-page'
+        '/astro-redirect-issue/redirected': '/astro-redirect-issue/new-page'
       }
 });
