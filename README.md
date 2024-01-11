@@ -1,6 +1,6 @@
 # Astro Starter Kit: Basics
 
-This is just example repo that show redirection links issue when deploying on GiHub Pages. Related to 
+This is just example repo that show redirection links issue when deploying on GiHub Pages. Related to issue [#9662](https://github.com/withastro/astro/issues/9662)
 
 ## 🧞 Commands
 
